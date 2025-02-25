@@ -1,0 +1,11 @@
+adatbázis:
+    users(cms)
+    rights(cms)
+    menu(cms)
+    categories(ID,name,status)
+    contents(ID,catID,title,short,content,date,userID,postpicture,status)
+    attachments(ID,contentID,dir,filename,size,type)
+    comments(ID,contentID,userID,date,comment)
+    automoderation(ID, word)
+getbootstrap blog template
+admin function
